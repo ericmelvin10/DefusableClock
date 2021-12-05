@@ -28,15 +28,21 @@
 
 
 
-
+ES
   Modificado por ericmelvin10 (Adrian Aceituno) en 2015 para una partida de ROL-paintball.
   El diseño inicial de nootropic permitia desactivar la bomba cortando tan solo un cable, que era elegido de forma aleatoria.
   En mi diseño, hay que cortar los cables en un orden determinado para desactivarla, para ello he añadido una sencilla máquina de estados.
+
+  Para poder usarlo, debes utilizar una placa de arduino que permita pinchar la eprom que viene en la placa del defusable clock, programar la eprom y volverla a instalar en la     placa de nootropic. 
   
+EN
   Modified by ericmelvin10 (Adrian Aceituno) in 2015 for a role paintaball game.
   Nootropic aproach to defuse was based in cutting a random cable. 
   I replaced that function with a simple state machine forcing to cut the cables in a certain order.
   
+  To use the code, you must use an arduino board compatible with the eprom used by nootropic in the defusable clock. You should reprogram the eprom by placing the chip in the     arduino board, then upload the code to the eprom, and put it back to the nootropic defusable clock board.
   
+https://nootropicdesign.com/defusable-clock/
+
 
 
